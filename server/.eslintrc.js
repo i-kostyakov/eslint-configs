@@ -1,20 +1,17 @@
 module.exports = {
   "env": {
-    "node": false,
+    "node": true,
     "es6": true,
-    "jquery": true,
-    "browser": true
   },
   "globals": {
-    "document": true,
-    "window": true
+    "global": true,
   },
   "parserOptions": {
     "ecmaVersion": 7,
     "sourceType": "module",
     "ecmaFeatures": {
-      "impliedStrict": true
-    }
+      "impliedStrict": true,
+    },
   },
   "rules": {
     "accessor-pairs": 0,
