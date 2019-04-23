@@ -22,7 +22,7 @@ module.exports = {
       "error",
       {
         "multiline": true,
-        "minItems": 2
+        "minItems": 3
       }
     ],
     "array-bracket-spacing": 2,
@@ -63,7 +63,7 @@ module.exports = {
     "constructor-super": 2,
     "curly": [
       "error",
-      "multi-or-nest",
+      "multi-line",
       "consistent"
     ],
     "default-case": 2,
@@ -136,7 +136,7 @@ module.exports = {
     "max-len": [
       "error",
       {
-        "code": 80,
+        "code": 120,
         "tabWidth": 2
       }
     ],
@@ -210,7 +210,7 @@ module.exports = {
     "no-extra-bind": 2,
     "no-extra-boolean-cast": 2,
     "no-extra-label": 2,
-    "no-extra-parens": 2,
+    "no-extra-parens": 1,
     "no-extra-semi": 2,
     "no-fallthrough": 2,
     "no-floating-decimal": 0,
@@ -362,7 +362,7 @@ module.exports = {
       "before"
     ],
     "padded-blocks": [
-      "error",
+      "warn",
       {
         "blocks": "never",
         "classes": "always",
@@ -449,7 +449,7 @@ module.exports = {
     "semi": 2,
     "sort-imports": 0,
     "sort-keys": [
-      "error",
+      "warn",
       "asc",
       {
         "caseSensitive": true,
@@ -488,6 +488,6 @@ module.exports = {
       "error",
       "after"
     ],
-    "yoda": 2
+    "yoda": 2,
   }
 };
